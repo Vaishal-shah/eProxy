@@ -1,0 +1,10 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\dipan\documents\visual studio 2013\projects\eproxy\eproxy\eproxy.windows\obj\debug\intermediatexaml\eproxy.windows.exe" HashGuid="58979b55-17b0-fe5d-0f3c-2f955300c741" />
+    <ReferenceAssembly PathName="c:\users\dipan\documents\visual studio 2013\projects\eproxy\packages\microsoft.azure.mobile.client.3.1.0\lib\netcore45\microsoft.windowsazure.mobile.dll" HashGuid="d6a3dc69-a548-594a-6d32-f7c923aa64d9" />
+    <ReferenceAssembly PathName="c:\users\dipan\documents\visual studio 2013\projects\eproxy\packages\microsoft.azure.mobile.client.3.1.0\lib\netcore45\microsoft.windowsazure.mobile.ext.dll" HashGuid="e47c24a5-20c2-9f71-9849-dd6360f9b667" />
+    <ReferenceAssembly PathName="c:\users\dipan\documents\visual studio 2013\projects\eproxy\packages\newtonsoft.json.6.0.4\lib\netcore45\newtonsoft.json.dll" HashGuid="21d6fdf9-5b56-582d-4524-cf342594819a" />
+    <ReferenceAssembly PathName="c:\users\dipan\documents\visual studio 2013\projects\eproxy\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\dipan\documents\visual studio 2013\projects\eproxy\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

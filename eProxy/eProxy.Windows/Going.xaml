@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="eProxy.Going"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:eProxy"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Light" Margin="1,2,2,2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="663*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="back" Content="Home" HorizontalAlignment="Left" Margin="617,582,0,0" VerticalAlignment="Top" Click="back_Click"/>
+        <TextBox x:Name="availPoints" TextWrapping="Wrap" BorderThickness="0" Margin="690,108,488,628"/>
+        <TextBox TextWrapping="Wrap" Text=" Points :" RenderTransformOrigin="0.656,1.235" Height="12" BorderThickness="0" Margin="604,108,636,628"/>
+        <ListBox x:Name="needy" HorizontalAlignment="Left" Height="236" Margin="285,203,0,0" VerticalAlignment="Top" Width="270"/>
+        <ListBox x:Name="lucky" HorizontalAlignment="Left" Height="236" Margin="771,203,0,0" VerticalAlignment="Top" Width="270"/>
+        <Button x:Name="forward" Content="-&gt;" HorizontalAlignment="Left" Margin="617,304,0,0" VerticalAlignment="Top" Click="forward_Click"/>
+        <Button x:Name="backward" Content="&lt;-" HorizontalAlignment="Left" Margin="617,366,0,0" VerticalAlignment="Top" Click="backward_Click"/>
+        <Button Content="Accept" HorizontalAlignment="Left" Margin="533,498,0,0" VerticalAlignment="Top" Width="235" FontSize="30" Click="Button_Click"/>
+        <TextBox x:Name="profit" HorizontalAlignment="Left" Margin="937,465,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+        <TextBox HorizontalAlignment="Left" Margin="868,465,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Profit"/>
+
+    </Grid>
+</Page>

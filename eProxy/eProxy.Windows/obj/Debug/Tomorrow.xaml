@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="eProxy.Tomorrow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:eProxy"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Light">
+        <Button x:ConnectionId='1' x:Name="b2" Content="GO" HorizontalAlignment="Left" Height="100" Margin="226,256,0,0" VerticalAlignment="Top" Width="108"                 />
+        <Button x:ConnectionId='2' x:Name="b3" Content="GO" HorizontalAlignment="Left" Height="100" Margin="328,256,0,0" VerticalAlignment="Top" Width="108"                 />
+        <Button x:ConnectionId='3' x:Name="b4" Content="GO" HorizontalAlignment="Left" Height="100" Margin="430,256,0,0" VerticalAlignment="Top" Width="108"                 />
+        <Button x:ConnectionId='4' x:Name="b5" Content="GO" HorizontalAlignment="Left" Height="100" Margin="532,256,0,0" VerticalAlignment="Top" Width="108"                 />
+        <Button x:ConnectionId='5' x:Name="b6" Content="GO" HorizontalAlignment="Left" Height="100" Margin="634,256,0,0" VerticalAlignment="Top" Width="108"                 />
+        <Button x:ConnectionId='6' x:Name="b7" Content="GO" HorizontalAlignment="Left" Height="100" Margin="736,256,0,0" VerticalAlignment="Top" Width="108"                 />
+        <Button x:ConnectionId='7' x:Name="b8" Content="GO" HorizontalAlignment="Left" Height="100" Margin="838,256,0,0" VerticalAlignment="Top" Width="108"                 />
+        <Button x:ConnectionId='8' x:Name="b9" Content="GO" HorizontalAlignment="Left" Height="100" Margin="940,256,0,0" VerticalAlignment="Top" Width="108"                 />
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Height="91" Margin="127,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox x:Name="t2" HorizontalAlignment="Left" Height="91" Margin="224,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox x:Name="t3" HorizontalAlignment="Left" Height="91" Margin="331,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox x:Name="t4" HorizontalAlignment="Left" Height="91" Margin="438,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="28"/>
+        <TextBox x:Name="t5" HorizontalAlignment="Left" Height="91" Margin="540,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox x:Name="t6" HorizontalAlignment="Left" Height="91" Margin="642,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox x:Name="t7" HorizontalAlignment="Left" Height="91" Margin="744,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox x:Name="t8" HorizontalAlignment="Left" Height="91" Margin="846,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox x:Name="t9" HorizontalAlignment="Left" Height="91" Margin="943,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="127,77,0,0" TextWrapping="Wrap" Text="8-9" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="224,77,0,0" TextWrapping="Wrap" Text="9-10" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="331,77,0,0" TextWrapping="Wrap" Text="10-11" VerticalAlignment="Top" Width="97" FontSize="28"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="438,77,0,0" TextWrapping="Wrap" Text="11-12" VerticalAlignment="Top" Width="97" FontSize="28"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="540,77,0,0" TextWrapping="Wrap" Text="12-1" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="642,77,0,0" TextWrapping="Wrap" Text="2-3" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="744,77,0,0" TextWrapping="Wrap" Text="3-4" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="846,77,0,0" TextWrapping="Wrap" Text="4-5" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="91" Margin="943,77,0,0" TextWrapping="Wrap" Text="5-6" VerticalAlignment="Top" Width="97" FontSize="36"/>
+        <Button x:ConnectionId='9' x:Name="b1_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="124,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='10' x:Name="b2_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="226,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='11' x:Name="b3_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="328,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='12' x:Name="b4_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="430,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='13' x:Name="b5_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="532,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='14' x:Name="b6_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="634,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='15' x:Name="b7_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="736,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='16' x:Name="b8_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="838,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='17' x:Name="b9_Copy" Content="PROXY" HorizontalAlignment="Left" Height="100" Margin="940,355,0,0" VerticalAlignment="Top" Width="108"                      />
+        <Button x:ConnectionId='18' x:Name="b1_Copy1" Content="Home" HorizontalAlignment="Left" Height="100" Margin="435,577,0,0" VerticalAlignment="Top" Width="205" FontSize="48"                       />
+        <Button x:ConnectionId='19' x:Name="b1" Content="GO" HorizontalAlignment="Left" Height="100" Margin="124,256,0,0" VerticalAlignment="Top" Width="108"                 />
+
+    </Grid>
+</Page>
+
